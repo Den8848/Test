@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post page</title>
+    <link rel="stylesheet" href="./css/post.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="header__wrapper">
+                <span class="header__logo">BlogWorld</span>
+                <nav class="header__navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item"><a class="navbar__link" href="./index.html">Home</a></li>
+                        <li class="navbar__item"><a class="navbar__link" href="./index.html#portfolio">Portfolio</a>
+                        </li>
+                        <li class="navbar__item"><a class="navbar__link" href="./blog.html">Blog</a></li>
+                        <li class="navbar__item"><a class="navbar__link" href="#">Pages</a></li>
+                        <li class="navbar__item"><a class="navbar__link" href="./index.html#about">About</a></li>
+                        <li class="navbar__item"><a class="navbar__link" href="./index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="main__wrapper main__post post">
+
+                <div class="post__page">
+                    <div class="post__page-sidebar sidebar">
+                        <aside class="sidebar__item-posts">
+                            <div class="sidebar__item-wrapper">
+                                <h2 class="item-posts__title">Latest posts</h2>
+                                <hr class="item-posts__underline">
+
+                                <div class="item-posts__item">
+                                    <img src="./img/page-post/latest-post-img1.png" alt="Post item iamge"
+                                        class="item-posts__img">
+                                    <div class="item-posts__info">
+                                        <p class="item-posts__info-title">
+                                            Much cure inappropriate could this restrictions …
+                                        </p>
+                                        <span class="item-posts__date">20 oct, 2019</span>
+                                        <span class="item-posts__dot">&middot;</span>
+                                        <span class="item-posts__minutes">10 min read</span>
+                                        <span class="item-posts__dot">&middot;</span>
+                                        <img src="./img/icons/atoms/a-icon-comment.svg" alt="Comment icon"
+                                            class="comment-icon">
+                                        <span class="item-posts__count">11</span>
+                                    </div>
+                                </div>
+
+                                <div class="item-posts__item">
+                                    <img src="./img/page-post/latest-post-img2.png" alt="Post item iamge"
+                                        class="item-posts__img">
+                                    <div class="item-posts__info">
+                                        <p class="item-posts__info-title">
+                                            Much cure inappropriate could this restrictions …
+                                        </p>
+                                        <span class="item-posts__date">20 oct, 2019</span>
+                                        <span class="item-posts__dot">&middot;</span>
+                                        <span class="item-posts__minutes">10 min read</span>
+                                        <span class="item-posts__dot">&middot;</span>
+                                        <img src="./img/icons/atoms/a-icon-comment.svg" alt="Comment icon"
+                                            class="comment-icon">
+                                        <span class="item-posts__count">11</span>
+                                    </div>
+                                </div>
+
+                                <div class="item-posts__btn-wrapper">
+                                    <button class="item-posts__btn">More posts</button>
+                                </div>
+                            </div>
+                        </aside>
+
+                        <aside class="sibebar__item-categories">
+                            <div class="sidebar__item-wrapper">
+                                <h2 class="item-categories__title">Categories</h2>
+                                <hr class="item-categories__underline">
+
+                                <ul class="item-categories__list">
+                                    <li class="item-categories__item item-restaurant">
+                                        <input type="checkbox" class="item-categories__btn" id="restaurant">
+                                        <label for="restaurant" class="item-categories__choice">
+                                            Restaurant food
+                                            <span class="item-categories__count">(3)</span>
+                                        </label>
+                                        <ul class="item-categories__links">
+                                            <li class="item-categories__link">Hiking</li>
+                                            <li class="item-categories__link">Bicycle trip</li>
+                                            <li class="item-categories__link">Mountains trip</li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="item-categories__item item-travel">
+                                        <input type="checkbox" class="item-categories__btn" id="travel">
+                                        <label for="travel" class="item-categories__choice">
+                                            Travel news
+                                            <span class="item-categories__count">(3)</span>
+                                        </label>
+                                        <ul class="item-categories__links">
+                                            <li class="item-categories__link link-hiking">Hiking</li>
+                                            <li class="item-categories__link link-bicycle">Bicycle trip</li>
+                                            <li class="item-categories__link link-mountains">Mountains trip</li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="item-categories__item item-technology">
+                                        <input type="checkbox" class="item-categories__btn" id="technology">
+                                        <label for="technology" class="item-categories__choice">
+                                            Modern technology
+                                            <span class="item-categories__count">(6)</span>
+                                        </label>
+                                        <ul class="item-categories__links">
+                                            <li class="item-categories__link">Hiking</li>
+                                            <li class="item-categories__link">Bicycle trip</li>
+                                            <li class="item-categories__link">Mountains trip</li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="item-categories__item item-product">
+                                        <input type="checkbox" class="item-categories__btn" id="product">
+                                        <label for="product" class="item-categories__choice">
+                                            Product
+                                            <span class="item-categories__count">(4)</span>
+                                        </label>
+                                        <ul class="item-categories__links">
+                                            <li class="item-categories__link">Hiking</li>
+                                            <li class="item-categories__link">Bicycle trip</li>
+                                            <li class="item-categories__link">Mountains trip</li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="item-categories__item item-inspiration">
+                                        <input type="checkbox" class="item-categories__btn" id="inspiration">
+                                        <label for="inspiration" class="item-categories__choice">
+                                            Inspiration
+                                            <span class="item-categories__count">(2)</span>
+                                        </label>
+                                        <ul class="item-categories__links">
+                                            <li class="item-categories__link">Hiking</li>
+                                            <li class="item-categories__link">Bicycle trip</li>
+                                            <li class="item-categories__link">Mountains trip</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </aside>
+
+                        <aside class="sidebar__item-tags">
+                            <div class="sidebar__item-wrapper">
+                                <h2 class="item-tags__title">Tags</h2>
+                                <hr class="item-tags__underline">
+
+                                <div class="item-tags__buttons">
+                                    <button class="item-tags__btn">Love</button>
+                                    <button class="item-tags__btn">Signs</button>
+                                    <button class="item-tags__btn">Waterfall</button>
+                                    <button class="item-tags__btn">Inspiration</button>
+
+                                    <button class="item-tags__btn">Quotes</button>
+                                    <button class="item-tags__btn">Sea</button>
+                                    <button class="item-tags__btn">Sense</button>
+                                    <button class="item-tags__btn">Coffee</button>
+                                    <button class="item-tags__btn">Gold</button>
+
+                                    <button class="item-tags__btn">Images</button>
+                                    <button class="item-tags__btn">Courage</button>
+                                    <button class="item-tags__btn">Dancing</button>
+                                    <button class="item-tags__btn">Video</button>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <ul class="footer__social-networks">
+                    <li class="social-networks__item">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img class="social-networks__link" src="./img/icons/atoms/a-icon-facebook.svg"
+                                alt="Facebook icon">
+                        </a>
+                    </li>
+                    <li class="social-networks__item">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img class="social-networks__link" src="./img/icons/atoms/a-icon-instagram.svg"
+                                alt="Instagram icon">
+                        </a>
+                    </li>
+                    <li class="social-networks__item">
+                        <a href="https://dribble.com/" target="_blank">
+                            <img class="social-networks__link" src="./img/icons/atoms/a-icon-dribbble.svg"
+                                alt="Dribble icon">
+                        </a>
+                    </li>
+                </ul>
+
+                <span class="footer__title">BlogWorld</span>
+
+                <span class="footer__rights">©2019 All Rights Reserved.</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/post_data.json"></script>
+    <script src="./js/post.js"></script>
+
+</body>
+
+</html>
