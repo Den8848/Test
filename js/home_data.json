@@ -1,0 +1,334 @@
+const htmlData = {
+  "sectionAbout": {
+    "title": {
+      "h2": "About us",
+      "text": "This is who we are - or at least who we strive to be…",
+    },
+    "content": {
+      "block1": [
+        {
+          "class": "media__pic-item1",
+          "img": "./img/icons/atoms/a-icon-typography.svg",
+          "imgClass": "item__pic1",
+          "alt": "Typography icon",
+          "h5": "Typography",
+          "titleClass": "item-title1",
+        },
+        {
+          "class": "media__pic-item2",
+          "img": "./img/icons/atoms/a-icon-iconset.svg",
+          "imgClass": "item__pic2",
+          "alt": "Icon set icon",
+          "h5": "Icon set",
+          "titleClass": "item-title2",
+        },
+        {
+          "class": "media__pic-item3",
+          "img": "./img/icons/atoms/a-icon-accurate.svg",
+          "imgClass": "item__pic3",
+          "alt": "Accurate icon",
+          "h5": "Accurate",
+          "titleClass": "item-title3",
+        }
+      ],
+      "block2": {
+        "bigImg": "./img/about-picture.png",
+        "playIcon": "./img/icons/atoms/a-icon-play.svg",
+      }
+    }
+  },
+
+  "sectionPosts": {
+    "title": {
+      "h2": "Latest posts",
+      "text": "Information is a source of learning. But unless it is organized, processed and available to the right people",
+    },
+    "content": [
+      {
+        "blockClass": "block__first",
+        "img": "./img/img-post-1.png",
+        "imgClass": "block__first-img",
+        "alt": "Section post image 1",
+        "anchorClass": "block__first-item",
+        "paragraphTitle": "In the Future We Will All Live in Star Wars",
+        "paragraphClass": "block__first-title",
+        "description": "The thing you’re doing now, reading prose on a screen, is going out of fashion. The defining narrative of our online moment concerns the decline of text, and the exploding reach and power of audio and video…",
+        "descriptionClass": "block__first-description",
+        "info": {
+          "infoClass": "block__first-info",
+          "date": "20 oct, 2019",
+          "dot": "&middot;",
+          "minutes": "10 min read",
+          "commentIcon": "./img/icons/atoms/a-icon-comment.svg",
+        }
+      },
+      {
+        "blockClass": "block__second",
+        "img": "./img/img-post-2.png",
+        "imgClass": "block__second-img",
+        "alt": "Section post image 2",
+        "anchorClass": "block__second-item",
+        "paragraphTitle": "Rubik’s Cube? No, Robotics and AI are…",
+        "paragraphClass": "block__second-title",
+        "description": "In other words, I will try to de-hype the crowd about the recent development in robotics. Concretely, OpenAI has claimed some pretty amazing results with learning to solve the Rubik’s cube with a robotic hand…",
+        "descriptionClass": "block__second-description",
+        "info": {
+          "infoClass": "block__second-info",
+          "date": "11 oct, 2019",
+          "dot": "&middot;",
+          "minutes": "7 min read",
+          "commentIcon": "./img/icons/atoms/a-icon-comment.svg",
+        }
+      },
+      {
+        "blockClass": "block__third",
+        "img": "./img/img-post-3.png",
+        "imgClass": "block__third-img",
+        "alt": "Section post image 3",
+        "anchorClass": "block__third-item",
+        "paragraphTitle": "How the Internet of Things will Transfo…",
+        "paragraphClass": "block__third-title",
+        "description": "The Internet of Things (IoT) promises to be the most important technological development for consumers since the advent of the smartphone. Experts believe that this collection of internet-connected technolog…",
+        "descriptionClass": "block__third-description",
+        "info": {
+          "infoClass": "block__third-info",
+          "date": "28 sep, 2019",
+          "dot": "&middot;",
+          "minutes": "16 min read",
+          "commentIcon": "./img/icons/atoms/a-icon-comment.svg",
+        }
+      }
+    ]
+  },
+
+  "sectionPortfolio": {
+    "title": {
+      "h2": "Latest portfolio",
+      "text": "Put there articles successfully special warrant submit agree what along then",
+    },
+    "content": [
+      {
+        "blockClass": "portfolio__block-1 block-1",
+        "img": "./img/bg-img1.png",
+        "alt": "Section portfolio ocean image",
+        "imgClass": "block-1__img",
+        "title": "Art Ocean",
+        "titleClass": "block-1__title",
+        "subtitle": "Photography, art, nature",
+        "subtitleClass": "block-1__text",
+        "blockItemClass": "portfolio__block-item",
+        "iconAttach": "./img/icons/atoms/a-icon-attach.svg",
+        "attachClass": "block-item__attach",
+        "iconSearch": "./img/icons/atoms/a-icon-search-1.svg",
+        "searchClass": "block-item__search"
+      },
+      {
+        "blockClass": "portfolio__block-2 block-2",
+        "img": "./img/bg-img2.png",
+        "alt": "Section portfolio city image",
+        "imgClass": "block-2__img",
+        "title": "City guide",
+        "titleClass": "block-2__title",
+        "subtitle": "Photography, city, way",
+        "subtitleClass": "block-2__text",
+        "blockItemClass": "portfolio__block-item",
+        "iconAttach": "./img/icons/atoms/a-icon-attach.svg",
+        "attachClass": "block-item__attach",
+        "iconSearch": "./img/icons/atoms/a-icon-search-1.svg",
+        "searchClass": "block-item__search",
+      },
+      {
+        "blockClass": "portfolio__block-3 block-3",
+        "img": "./img/bg-img3.png",
+        "alt": "Section portfolio mountains image",
+        "imgClass": "block-3__img",
+        "title": "Mountains",
+        "titleClass": "block-3__title",
+        "subtitle": "Art, hiking",
+        "subtitleClass": "block-3__text",
+        "blockItemClass": "portfolio__block-item",
+        "iconAttach": "./img/icons/atoms/a-icon-attach.svg",
+        "attachClass": "block-item__attach",
+        "iconSearch": "./img/icons/atoms/a-icon-search-1.svg",
+        "searchClass": "block-item__search",
+      },
+      {
+        "blockClass": "portfolio__block-1 block-1",
+        "img": "./img/bg-img1.png",
+        "alt": "Section portfolio ocean image",
+        "imgClass": "block-1__img",
+        "title": "Art Ocean",
+        "titleClass": "block-1__title",
+        "subtitle": "Photography, art, nature",
+        "subtitleClass": "block-1__text",
+        "blockItemClass": "portfolio__block-item",
+        "iconAttach": "./img/icons/atoms/a-icon-attach.svg",
+        "attachClass": "block-item__attach",
+        "iconSearch": "./img/icons/atoms/a-icon-search-1.svg",
+        "searchClass": "block-item__search"
+      },
+      {
+        "blockClass": "portfolio__block-2 block-2",
+        "img": "./img/bg-img2.png",
+        "alt": "Section portfolio city image",
+        "imgClass": "block-2__img",
+        "title": "City guide",
+        "titleClass": "block-2__title",
+        "subtitle": "Photography, city, way",
+        "subtitleClass": "block-2__text",
+        "blockItemClass": "portfolio__block-item",
+        "iconAttach": "./img/icons/atoms/a-icon-attach.svg",
+        "attachClass": "block-item__attach",
+        "iconSearch": "./img/icons/atoms/a-icon-search-1.svg",
+        "searchClass": "block-item__search",
+      },
+      {
+        "blockClass": "portfolio__block-3 block-3",
+        "img": "./img/bg-img3.png",
+        "alt": "Section portfolio mountains image",
+        "imgClass": "block-3__img",
+        "title": "Mountains",
+        "titleClass": "block-3__title",
+        "subtitle": "Art, hiking",
+        "subtitleClass": "block-3__text",
+        "blockItemClass": "portfolio__block-item",
+        "iconAttach": "./img/icons/atoms/a-icon-attach.svg",
+        "attachClass": "block-item__attach",
+        "iconSearch": "./img/icons/atoms/a-icon-search-1.svg",
+        "searchClass": "block-item__search",
+      },
+      {
+        "blockClass": "portfolio__block-1 block-1",
+        "img": "./img/bg-img1.png",
+        "alt": "Section portfolio ocean image",
+        "imgClass": "block-1__img",
+        "title": "Art Ocean",
+        "titleClass": "block-1__title",
+        "subtitle": "Photography, art, nature",
+        "subtitleClass": "block-1__text",
+        "blockItemClass": "portfolio__block-item",
+        "iconAttach": "./img/icons/atoms/a-icon-attach.svg",
+        "attachClass": "block-item__attach",
+        "iconSearch": "./img/icons/atoms/a-icon-search-1.svg",
+        "searchClass": "block-item__search"
+      },
+      {
+        "blockClass": "portfolio__block-2 block-2",
+        "img": "./img/bg-img2.png",
+        "alt": "Section portfolio city image",
+        "imgClass": "block-2__img",
+        "title": "City guide",
+        "titleClass": "block-2__title",
+        "subtitle": "Photography, city, way",
+        "subtitleClass": "block-2__text",
+        "blockItemClass": "portfolio__block-item",
+        "iconAttach": "./img/icons/atoms/a-icon-attach.svg",
+        "attachClass": "block-item__attach",
+        "iconSearch": "./img/icons/atoms/a-icon-search-1.svg",
+        "searchClass": "block-item__search",
+      },
+      {
+        "blockClass": "portfolio__block-3 block-3",
+        "img": "./img/bg-img3.png",
+        "alt": "Section portfolio mountains image",
+        "imgClass": "block-3__img",
+        "title": "Mountains",
+        "titleClass": "block-3__title",
+        "subtitle": "Art, hiking",
+        "subtitleClass": "block-3__text",
+        "blockItemClass": "portfolio__block-item",
+        "iconAttach": "./img/icons/atoms/a-icon-attach.svg",
+        "attachClass": "block-item__attach",
+        "iconSearch": "./img/icons/atoms/a-icon-search-1.svg",
+        "searchClass": "block-item__search",
+      }
+    ],
+    "block1": {
+      "leftButton": "./img/icons/atoms/a-icon-arrow.svg",
+      "rightButton": "./img/icons/atoms/a-icon-arrow.svg",
+    },
+    "worksButtonText": "See all works",
+  },
+
+  "sectionTestimonials": {
+    "background": "./img/bg-testimonial.png",
+    "title": {
+      "h2": "Testimonials",
+    },
+    "slider": {
+      "leftButton": "./img/icons/atoms/a-icon-arrow.svg",
+      "rightButton": "./img/icons/atoms/a-icon-arrow.svg",
+      "text": "We move at a fast pace. I’m always working on something. I am excited about it!",
+      "name": "Martin Oda",
+      "role": "Product designer",
+      "picture": "./img/user-img.png",
+    }
+  },
+
+
+
+
+
+
+  "sectionContactUs": {
+    "title": {
+      "h2": "Contact us",
+      "text": "Put there articles successfully special warrant submit agree what along then"
+    },
+    "socialLinks": [
+      {
+        "href": "https://www.facebook.com/",
+        "icon": "./img/icons/atoms/a-icon-facebook.svg",
+        "alt": "Facebook icon",
+      },
+      {
+        "href": "https://www.instagram.com/",
+        "icon": "./img/icons/atoms/a-icon-instagram.svg",
+        "alt": "Instagram icon",
+      },
+      {
+        "href": "https://dribble.com/",
+        "icon": "./img/icons/atoms/a-icon-dribbble.svg",
+        "alt": "Dribble icon",
+      }
+    ],
+    "listTitle": "What will be next step?",
+    "list": [
+      {
+        "number": "1.",
+        "numberClass": "block-steps__li-num",
+        "title": "We’ll prepare a proposal",
+        "titleClass": "block-steps__1-title",
+        "text": "Required scope, timeline and apr. price will be included if you provide us with detail information about a project.",
+        "textClass": "block-steps__1-text",
+      },
+      {
+        "number": "2.",
+        "numberClass": "block-steps__li-num",
+        "title": "Together we discuss it",
+        "titleClass": "block-steps__2-title",
+        "text": "Let’s get acquainted and discuss all the possible variant and options. Google Hangouts or Skype usually wirks great.",
+        "textClass": "block-steps__2-text",
+      },
+      {
+        "number": "3.",
+        "numberClass": "block-steps__li-num",
+        "title": "Let’s start building",
+        "titleClass": "block-steps__3-title",
+        "text": " When the contract is signed and all goals are set we can start the first sprint.",
+        "textClass": "block-steps__3-text",
+      }
+    ],
+    "mailIcon": "./img/icons/atoms/a-icon-mail.svg",
+    "mailText": "Write us a few words about your project and we will prepare proposal for you within 24 hours",
+    "labelName": "Your name",
+    "labelEmail": "Email",
+    "labelPass": "Password",
+    "showPassIcon": "./img/icons/atoms/a-icon-showpass.svg",
+    "showPassText": "show",
+    "formButton": "Send message",
+    "infoText": "If you need to have a DNA first, just contact us at ",
+    "emailLink": "email@gmail.com",
+    "infoMap": "./img/map.png",
+  }
+}

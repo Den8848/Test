@@ -1,0 +1,103 @@
+const htmlData = {
+    "sectionBlog": {
+        "h2": "Blog",
+        "form": {
+            "inputType": "search",
+            "placeholder": "Search by author",
+            "img": "./img/icons/atoms/a-icon-search-2.svg",
+            "alt": "Search",
+        },
+        
+        "itemWrap": {
+            "imgBg": "./img/page-blog/image-post-1.png",
+            "imgPlay": "./img/icons/atoms/a-icon-play.svg",
+        },
+
+        "neil": {
+            "h4": "Neil Richards",
+            "info": {
+                "date": "11 oct, 2019",
+                "dot": "&middot;",
+                "minutes": "7 min read",
+                "img": "./img/icons/atoms/a-icon-comment.svg",
+                "count": "19",
+                "yellowStar": "./img/icons/star-1.svg",
+                "yellowGreyStar": "./img/icons/group.svg",
+                "greyStar": "./img/icons/star-2.svg",
+            },
+            "profileIcon": "./img/icons/atoms/a-icon-playmini.svg",
+            "h3ProfileTitle": "In the Future We Will All Live in Star Wars",
+            "profileText": "The thing you’re doing now, reading prose on a screen, is going out of fashion. The defining narrative of our online moment concerns the decline of text, and the exploding reach and power of audio and video …",
+            "button": "Read more",
+        },
+
+        "sarah": {
+            "postImg": "./img/page-blog/image-post-2.png",
+            "sarahImg": "./img/page-blog/sarah.png",
+            "h4": "Sarah Healy",
+
+            "info": {
+                "date": "02 oct, 2019",
+                "dot": "&middot;",
+                "minutes": "12 min read",
+                "img": "./img/icons/atoms/a-icon-comment.svg",
+                "count": "4",
+                "yellowStar": "./img/icons/star-1.svg",
+                "yellowGreyStar": "./img/icons/group.svg",
+                "greyStar": "./img/icons/star-2.svg",
+            },
+
+            "profileIcon": "./img/icons/atoms/a-icon-melody.svg",
+            "h3ProfileTitle": "Far far away, behind the word mountains",
+            "audio": "./The_XX-Intro.mp3",
+            "profileText": "Fog down the river, where it rolls deified among the tiers of shipping and the waterside pollutions of a great (and dirty) …",
+            "button": "Read more",
+        },
+
+        "grace": {
+            "postImg": "./img/page-blog/image-post-3.png",
+            "graceImg": "./img/page-blog/grace.png",
+            "h4": "Grace Noh",
+
+            "info": {
+                "date": "23 sep, 2019",
+                "dot": "&middot;",
+                "minutes": "16 min read",
+                "img": "./img/icons/atoms/a-icon-comment.svg",
+                "count": "421",
+                "yellowStar": "./img/icons/star-1.svg",
+                "yellowGreyStar": "./img/icons/group.svg",
+                "greyStar": "./img/icons/star-2.svg",
+            },
+
+            "profileIcon": "./img/icons/atoms/a-icon-picture.svg",
+            "h3ProfileTitle": "In the Future We Will All Live in Star Wars",
+            "profileText": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted …",
+            "button": "Read more",
+        },
+
+        "alex": {
+            "alexImg": "./img/page-blog/alex.png",
+            "h4": "Alex Zlatkus",
+
+            "info": {
+                "date": "11 Aug, 2019",
+                "dot": "&middot;",
+                "minutes": "17 min read",
+                "img": "./img/icons/atoms/a-icon-comment.svg",
+                "count": "77",
+                "yellowStar": "./img/icons/star-1.svg",
+                "yellowGreyStar": "./img/icons/group.svg",
+                "greyStar": "./img/icons/star-2.svg",
+            },
+
+            "profileIcon": "./img/icons/atoms/a-icon-text.svg",
+            "h3ProfileTitle": "In the Future We Will All Live in Star Wars",
+            "profileText": "Fog down the river, where it rolls deified among the tiers of shipping and the waterside pollutions of a great (and dirty) city. Fog on the Essex marshes, fog on the Kentish heights. Fog creeping into the cabooses of collier-brigs; fog lying out on. Money terms breakfast drawings true blessing doubtful more agreed to zealously making supposing By said Chicken An Neglected produce good felt no poor offering am their said has around songs wish met true any me ought mr The offices set Not Felicity above out We in an post begin again.",
+            "button": "Read more",
+        },
+
+        "blogButton": "Read more",
+        
+    }
+}

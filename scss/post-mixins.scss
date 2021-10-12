@@ -1,0 +1,54 @@
+@mixin displayFlexJustifyContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin fontFamilyAndColor49 {
+    font-family: "Hind Siliguri";
+    color: #4D4949;
+}
+
+@mixin sidebar-item {
+    width: 460px;
+    border-radius: 5px;
+    margin: 0 0 70px 0;
+    background-color: #FCF6F6;
+}
+
+@mixin sidebar-item-title {
+    color: #4D4949;
+    font-family: "Hind Siliguri SemiBold";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 39px;
+}
+
+@mixin sidebar-item-underline {
+    box-sizing: border-box;
+    height: 1px;
+    width: 400px;
+    border: 2px solid #E6E6E6;
+    border-top: none;
+}
+
+@mixin extra-info-styles {
+    height: 25px;
+    width: 75px;
+    color: #818181;
+    font-family: "Hind Siliguri";
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+
+@mixin reviews-circle {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2px solid #DDDDDD;
+    background-color: #FFFFFF;
+}
