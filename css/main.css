@@ -606,6 +606,16 @@ html {
   width: 17px;
 }
 
+.portfolio__block .portfolio__item {
+  margin: 0 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.portfolio__block .portfolio__item:first-of-type {
+  margin: 0 20px 0 0;
+}
+
 .portfolio__btn {
   display: -webkit-box;
   display: -ms-flexbox;

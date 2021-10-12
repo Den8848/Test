@@ -231,7 +231,8 @@ function sectionPortfolio() {
   portfolioButton.append(leftButton);
   portfolioButton.append(rightButton);
 
-  portfolio.append(portfolioButton);
+  itemsWrapper.append(portfolioButton);
+  // portfolio.append(portfolioButton);
   portfolio.append(worksButton);
 
   return portfolio;

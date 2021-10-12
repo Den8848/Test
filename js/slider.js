@@ -137,15 +137,15 @@ function Slider(config) {
   this.arrowNext = sliderWrapper.querySelector('.right-arrow');
   this.arrowPrev = sliderWrapper.querySelector('.left-arrow');
 
-  // console.log(1, sliderWrapper);
-  // console.log(2, slideInterval);
-  // console.log(3, this.slider);
-  // console.log(4, this.arrowNext);
-  // console.log(5, this.arrowPrev);
+  console.log(1, sliderWrapper);
+  console.log(2, slideInterval);
+  console.log(3, this.slider);
+  console.log(4, this.arrowNext);
+  console.log(5, this.arrowPrev);
   
   // transition: all 0.5s;
   
-  this.speed = slideInterval || 2000;
+  this.speed = slideInterval || 1500;
   this.next = () => this.slider.appendChild(this.slider.firstElementChild);
   this.prev = () => this.slider.prepend(this.slider.lastElementChild);
           this.prev = () => this.slider.prepend(this.slider.lastElementChild);
@@ -166,8 +166,8 @@ function Slider(config) {
 
 const portfolioSliderConfig = {
   sliderWrapper: document.querySelector('.portfolio__items'),
-  // slideInterval: 5000,
-  btnState: 'off',
+  slideInterval: 1000,
+  // btnState: 'off',
   autoPlay: 'on',
 };
 
@@ -220,5 +220,5 @@ function PortfolioSlider(config) {
 const portfolioSlider = new PortfolioSlider(portfolioSliderConfig);
 
 // eslint-disable-next-line no-unused-vars
-const testimonialsSlider = new TestimonialsSlider(testimonialsSliderConfig);
+// const testimonialsSlider = new TestimonialsSlider(testimonialsSliderConfig);
 

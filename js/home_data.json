@@ -108,7 +108,7 @@ const htmlData = {
     },
     "content": [
       {
-        "blockClass": "portfolio__block-1 block-1",
+        "blockClass": "portfolio__block-1 block-1 portfolio__item",
         "img": "./img/bg-img1.png",
         "alt": "Section portfolio ocean image",
         "imgClass": "block-1__img",
@@ -123,7 +123,7 @@ const htmlData = {
         "searchClass": "block-item__search"
       },
       {
-        "blockClass": "portfolio__block-2 block-2",
+        "blockClass": "portfolio__block-2 block-2 portfolio__item",
         "img": "./img/bg-img2.png",
         "alt": "Section portfolio city image",
         "imgClass": "block-2__img",
@@ -138,7 +138,7 @@ const htmlData = {
         "searchClass": "block-item__search",
       },
       {
-        "blockClass": "portfolio__block-3 block-3",
+        "blockClass": "portfolio__block-3 block-3 portfolio__item",
         "img": "./img/bg-img3.png",
         "alt": "Section portfolio mountains image",
         "imgClass": "block-3__img",
@@ -153,7 +153,7 @@ const htmlData = {
         "searchClass": "block-item__search",
       },
       {
-        "blockClass": "portfolio__block-1 block-1",
+        "blockClass": "portfolio__block-1 block-1 portfolio__item",
         "img": "./img/bg-img1.png",
         "alt": "Section portfolio ocean image",
         "imgClass": "block-1__img",
@@ -168,7 +168,7 @@ const htmlData = {
         "searchClass": "block-item__search"
       },
       {
-        "blockClass": "portfolio__block-2 block-2",
+        "blockClass": "portfolio__block-2 block-2 portfolio__item",
         "img": "./img/bg-img2.png",
         "alt": "Section portfolio city image",
         "imgClass": "block-2__img",
@@ -183,7 +183,7 @@ const htmlData = {
         "searchClass": "block-item__search",
       },
       {
-        "blockClass": "portfolio__block-3 block-3",
+        "blockClass": "portfolio__block-3 block-3 portfolio__item",
         "img": "./img/bg-img3.png",
         "alt": "Section portfolio mountains image",
         "imgClass": "block-3__img",
@@ -198,7 +198,7 @@ const htmlData = {
         "searchClass": "block-item__search",
       },
       {
-        "blockClass": "portfolio__block-1 block-1",
+        "blockClass": "portfolio__block-1 block-1 portfolio__item",
         "img": "./img/bg-img1.png",
         "alt": "Section portfolio ocean image",
         "imgClass": "block-1__img",
@@ -213,7 +213,7 @@ const htmlData = {
         "searchClass": "block-item__search"
       },
       {
-        "blockClass": "portfolio__block-2 block-2",
+        "blockClass": "portfolio__block-2 block-2 portfolio__item",
         "img": "./img/bg-img2.png",
         "alt": "Section portfolio city image",
         "imgClass": "block-2__img",
@@ -228,7 +228,7 @@ const htmlData = {
         "searchClass": "block-item__search",
       },
       {
-        "blockClass": "portfolio__block-3 block-3",
+        "blockClass": "portfolio__block-3 block-3 portfolio__item",
         "img": "./img/bg-img3.png",
         "alt": "Section portfolio mountains image",
         "imgClass": "block-3__img",
