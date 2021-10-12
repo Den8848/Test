@@ -134,8 +134,8 @@
 function Slider(config) {
   const {sliderWrapper, slideInterval} = config;
   this.slider = sliderWrapper.querySelector('.slider');
-  this.arrowNext = document.querySelector('.right-arrow');
-  this.arrowPrev = document.querySelector('.left-arrow');
+  this.arrowNext = sliderWrapper.querySelector('.right-arrow');
+  this.arrowPrev = sliderWrapper.querySelector('.left-arrow');
 
   // console.log(1, sliderWrapper);
   // console.log(2, slideInterval);
