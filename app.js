@@ -228,7 +228,7 @@ const ORIENTATION_PICTURE_WRAPPER = document.querySelector('.orientation-change_
 
 screen.orientation.addEventListener('change', function(event) {
 
-    // if(event.orientation){
+    if (event.orientation) {
         if(event.orientation === 'landscape'){
             ORIENTATION_PICTURE_WRAPPER.classList.add('show-container');
             CONTAINER.classList.add('hide-container');
@@ -240,5 +240,5 @@ screen.orientation.addEventListener('change', function(event) {
         }
         // else if(event.orientation === 'landscape') {
         // }
-//   }
+    }
 })
