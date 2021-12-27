@@ -512,11 +512,11 @@
 }
 
 .hide-container {
-    display: block;
+    display: none;
 }
 
 .show-container {
-    display: none;
+    display: block;
 }
 
 @media screen and (max-width: 415px) {
