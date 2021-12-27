@@ -220,3 +220,25 @@ RIGHT_ARROW.addEventListener('click', rightSlide);
 RIGHT_ARROW_RASP.addEventListener('click', rightSlideRasp);
 RIGHT_ARROW_PEACH.addEventListener('click', rightSlidePeach);
 RIGHT_ARROW_B1.addEventListener('click', rightSlidePepermint);
+
+
+
+// const CONTAINER = document.querySelector('.container');
+const ORIENTATION_PICTURE_WRAPPER = document.querySelector('.orientation-change__picture-wrapper');
+
+screen.orientation.addEventListener('change', function(event) {
+
+    // if(event.orientation){
+        if(event.orientation === 'landscape'){
+            ORIENTATION_PICTURE_WRAPPER.classList.add('show-container');
+            CONTAINER.classList.add('hide-container');
+        }
+
+        if(event.orientation === 'portrait'){
+            ORIENTATION_PICTURE_WRAPPER.classList.remove('show-container');
+            CONTAINER.classList.remove('hide-container');
+        }
+        // else if(event.orientation === 'landscape') {
+        // }
+//   }
+})

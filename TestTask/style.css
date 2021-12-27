@@ -62,17 +62,19 @@
     display: block;
 }
 
-.hidden-pepermint-2 {
-    display: none;
-}
-
-.hidden-raspberry {
-    display: none;
-}
-
+.hidden-pepermint-2,
+.hidden-raspberry,
 .hidden-peach {
     display: none;
 }
+
+/* .hidden-raspberry {
+    display: none;
+} */
+
+/* .hidden-peach {
+    display: none;
+} */
 
 .slider-block {
     position: relative;
@@ -502,6 +504,19 @@
     animation-name: fadeInLeftBig;
     animation-duration: 0.8s;
     animation-fill-mode: forwards;
+}
+
+.orientation-change__picture {
+    width: 100vw;
+    height: 100vh;
+}
+
+.hide-container {
+    display: block;
+}
+
+.show-container {
+    display: none;
 }
 
 @media screen and (max-width: 415px) {
